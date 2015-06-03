@@ -1,0 +1,53 @@
+# Release 1.3.2 #
+
+The following changes were made in this release:
+
+## Bug fixes: ##
+
+### Issue 53: Scan Policy configuration bug ###
+
+### Issue 62: The "Export all urls to File" does not seem to work ###
+
+### Issue 87: SSL not working with Dynamic SSL Certificate generator (with Chrome on Mac OS) ###
+
+### Issue 95: NullPointerException when dropping requests in proxy ###
+
+### Issue 106: Cannot display HTTP gzipped contents ###
+
+### Issue 107: The last intercepted request/response remains in the Break window ###
+
+### Issue 131: Right click on Mac without mouse doesn't work ###
+
+### Issue 138: Broken end of stream detection causes endless loop and threads not ending ###
+
+### Issue 143: Help button: Options --> Language ###
+
+### Issue 145: Crash at start up ###
+
+### Issue 147: Session save and request/response data ###
+
+### Issue 151: Incorrect language used by ZAP ###
+
+### Issue 152: Check for updates not working ###
+
+## See also ##
+
+<table> 
+ <tbody>
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td> <a href="HelpIntro" rel="nofollow">Introduction</a></td>
+   <td>the introduction to ZAP</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td> <a href="HelpReleasesReleases" rel="nofollow">Releases</a></td>
+   <td>the full set of releases</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td> <a href="HelpCredits" rel="nofollow">Credits</a></td>
+   <td>the people and groups who have made this release possible</td>
+  </tr> 
+ </tbody>
+</table>
