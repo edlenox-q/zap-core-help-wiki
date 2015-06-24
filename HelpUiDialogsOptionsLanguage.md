@@ -31,10 +31,3 @@ After the import you will immediately be able to select the newly imported langu
   </tr> 
  </tbody>
 </table>
-
-## External Links ##
-
-Language packs can be found on the [ZAP download page][]
-
-
-[ZAP download page]: https://code.google.com/p/zaproxy/downloads/list

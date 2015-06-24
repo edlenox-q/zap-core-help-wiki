@@ -48,7 +48,7 @@ Add-ons are assigned a status which may be one of:
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td> https://code.google.com/p/zap-extensions/</td>
+   <td> https://github.com/zaproxy/zap-extensions/</td>
    <td>to browse the add-ons online</td>
   </tr> 
  </tbody>
