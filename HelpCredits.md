@@ -156,6 +156,10 @@ People who have made smaller but still very much appreciated enhancements to the
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Benjamin Slack of http://www.nimajneb.com/ (for the higher quality icons)</td>
   </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Chris Grieger</td>
+  </tr> 
  </tbody>
 </table>
 
