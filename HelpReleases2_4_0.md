@@ -62,6 +62,7 @@ Please be aware that the Plugin ID for the External Redirect scanner has changed
  *  Issue 990 : Allow to delete alerts through the API
  *  Issue 1151 : Active Scan in Scope finishes before scanning all messages in scope if multiple domains available
  *  Issue 1154 : Tool tip text "Show tab names and tab icons" IdealFirstBug
+ *  Issue 1175 : Support a Contexts tree
  *  Issue 1176 : Spider advanced scan dialog
  *  Issue 1180 : Proxy corrupts URL when there are multiple question marks
  *  Issue 1184 : Improve support for IBM JDK
