@@ -160,6 +160,10 @@ People who have made smaller but still very much appreciated enhancements to the
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Chris Grieger</td>
   </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Anthon Pang</td>
+  </tr> 
  </tbody>
 </table>
 
