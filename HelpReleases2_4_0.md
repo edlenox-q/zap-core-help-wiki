@@ -56,6 +56,7 @@ Please be aware that the Plugin ID for the External Redirect scanner has changed
  *  Issue 642 : Output tab needs timestamps
  *  Issue 653 : Handle updates better on Kali Linux
  *  Issue 704 : ZAP Error: handshake alert: unrecognized\_name
+ *  Issue 722 : ZAP UI doesnt handle multiple active scans well
  *  Issue 883 : Support multiple scans in the API
  *  Issue 949 : Spider (site) does not follow hyperlinks in JSON documents
  *  Issue 959 : add-on updater might ignore outbound proxy changes

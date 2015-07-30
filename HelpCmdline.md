@@ -57,18 +57,19 @@ ZAP supports the following command line options:
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>-newsession</td>
-   <td>Creates a new session at the given location (it expects the full path to the session)</td>
+   <td>Creates a new session at the given location</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>-session</td>
-   <td>Opens the given session after starting ZAP (it expects the full path to the session).</td>
+   <td>Opens the given session after starting ZAP</td>
   </tr> 
  </tbody>
 </table>
 
 
 The options '-session' and '-newsession' are mutually exclusive. An error will be shown and ZAP exit (if not in GUI) when both options are set.
+Relative paths to session file are resolved against the "session" directory located in ZAP's home directory (default or specified with -dir option).
 Configuration keys should be specified using the dot notation based their location in the XML of the configuration file, eg:
 
 
@@ -83,7 +84,7 @@ Examples:
  *  Start ZAP in 'daemon' mode with a new session created at a given path:
     
     ``````````
-    -daemon -newsession /path/to/new/session
+    -daemon -newsession session
     ``````````
  *  Create a report of the last scan of an existing session and exit ZAP once finished:
     

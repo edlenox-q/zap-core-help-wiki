@@ -130,7 +130,7 @@
       * [Session Properties](HelpAddonsWebsocketSessionProperties)
     * ![](https://github.com/zaproxy/zap-core-help/wiki/images/fruit-orange.png) [Zest](HelpAddonsZestZest)
   * [Releases](HelpReleasesReleases)
-    * [2.4.0.1](HelpReleases2_4_0_1)
+    * [2.4.1](HelpReleases2_4_1)
     * [2.4.0](HelpReleases2_4_0)
     * [2.3.1](HelpReleases2_3_1)
     * [2.3.0](HelpReleases2_3_0)
