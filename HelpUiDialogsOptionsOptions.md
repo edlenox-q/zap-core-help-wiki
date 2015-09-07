@@ -17,6 +17,11 @@ It include the following screens:
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpUiDialogsOptionsAlert" rel="nofollow">Alerts</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td><a href="HelpUiDialogsOptionsAnticsrf" rel="nofollow">Anti CSRF Tokens</a></td>
    <td></td>
   </tr> 
@@ -58,6 +63,11 @@ It include the following screens:
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td><a href="HelpUiDialogsOptionsDynsslcert" rel="nofollow">Dynamic SSL Certificate</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpUiDialogsOptionsJvm" rel="nofollow">JVM</a></td>
    <td></td>
   </tr> 
   <tr>

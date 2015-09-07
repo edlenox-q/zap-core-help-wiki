@@ -6,7 +6,7 @@ In order to detect when response messages from web servers correspond to authent
 
 To set one of the **Logged in/out Indicators**, either type the regex directly in the *[Session Properties][] dialog -> Authentication panel -> Logged In/Out Indicator field*, either find an authenticated message in the Sites Tree, select it, open the Response View and select the text you wish to define as the indicator using the mouse and select the *Flag as Context... Logged in/out indicator* right-click menu option.
 
-In order to perform the authentication of an user on a website / in a webapp, the Authentication Method defines how the authentication is done (the process), while the necessary credentials (the exact identifiers) are dependent on the user, so, in ZAP, they are configured in the Users.
+In order to perform the authentication of a user on a website / in a webapp, the Authentication Method defines how the authentication is done (the process), while the necessary credentials (the exact identifiers) are dependent on the user, so, in ZAP, they are configured in the Users.
 
 The generic **main steps** that are needed to configure authentication for a web application are the following:
 
@@ -28,27 +28,27 @@ Multiple authentication methods have been implemented and the system supports ea
 
 ### Manual Authentication ###
 
-This method allows users to perform the authentication manually (e.g. authenticate in the browser while proxy-ing through ZAP) and then select the corresponding HttpSession. As the actual authentication is being performed by you, this method does not support re-authentication in case the webapp logs an user out.
+This method allows users to perform the authentication manually (e.g. authenticate in the browser while proxy-ing through ZAP) and then select the corresponding HttpSession. As the actual authentication is being performed by you, this method does not support re-authentication in case the webapp logs a user out.
 
-When using this authentication method, configuring an User for the context require choosing an authenticated HTTP session.
+When using this authentication method, configuring a User for the context require choosing an authenticated HTTP session.
 
 ### Form-Based Authentication ###
 
 This method is used for websites / webapps where authentication is done by submitting a form or performing a GET request to a 'login url' using a 'username/password' pair of authentication credentials. Re-authentication is possible. Configuration can be done using the [Session Contexts Dialog][Session Properties] or using the contextual PopupMenu: *Flag as... Form-Based Authentication Login Request*.
 
-When using this authentication method, configuring an User for the context requires setting up the *username/password* pair of credentials that are used for the form based authentication.
+When using this authentication method, configuring a User for the context requires setting up the *username/password* pair of credentials that are used for the form based authentication.
 
 ### HTTP/NTLM Authentication ###
 
 This method is used for websites / webapps where authentication is enforced using the HTTP or NTLM Authentication mechanisms employing HTTP message headers. Three authentication schemes are supported: Basic, Digest and NTLM. Re-authentication is possible, as the authentication headers are sent with every authenticated request. Configuration can be done using the [Session Contexts Dialog][Session Properties].
 
-When using this authentication method, configuring an User for the context requires setting up the *username/password* pair of credentials that are used for the HTTP/NTLM authentication.
+When using this authentication method, configuring a User for the context requires setting up the *username/password* pair of credentials that are used for the HTTP/NTLM authentication.
 
 ### Script-Based Authentication ###
 
 This method is useful for websites / webapps where the authentication is a more complex one and some custom scripts that handle the authentication process are beneficial. To use this method, you must first define an Authentication script which sends messages or performs other actions as needed by your web-application. This script is then selected for use for a given Context and it is called whenever an authentication is performed. Re-authentication is possible. Configuration can be done using the [Session Contexts Dialog][Session Properties] and requires you to have the Scripts Console ZAP Addon installed from the Marketplace.
 
-When using this authentication method, configuring an User for the context requires setting up the a set of parameters defined in the script. For more details, see the provided Authentication Script examples.
+When using this authentication method, configuring a User for the context requires setting up the a set of parameters defined in the script. For more details, see the provided Authentication Script examples.
 
 ## Configuration example ##
 

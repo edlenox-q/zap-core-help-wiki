@@ -24,7 +24,7 @@ The following changes were made in this release:
  *  Issue 1566 : Improve active scan's reported progress
  *  Issue 1573 : Add option to inject plugin ID in header for all ascan requests
  *  Issue 1607 : Unable to save the test session via API
- *  Issue 1621 : AScan API - Allow to scan as an user
+ *  Issue 1621 : AScan API - Allow to scan as a user
  *  Issue 1625 : Support multiple structural params and ones on top level nodes
  *  Issue 1653 : Support context menu key for trees
  *  Issue 1655 : Copy Session Token from Http Sessions tab to clipboard

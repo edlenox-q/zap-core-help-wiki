@@ -172,6 +172,14 @@ People who have made smaller but still very much appreciated enhancements to the
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Matt Austin (@mattaustin)</td>
   </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Daniel Grunwell (grunny)</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Samir Khakimov</td>
+  </tr> 
  </tbody>
 </table>
 

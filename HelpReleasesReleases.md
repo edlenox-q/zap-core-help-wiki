@@ -6,6 +6,11 @@ The following releases have been made:
  <tbody>
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpReleases2_4_1" rel="nofollow">2.4.2</a></td>
+   <td>bug fix and minor enhancement release</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td><a href="HelpReleases2_4_1" rel="nofollow">2.4.1</a></td>
    <td>includes important security fixes - users are urged to upgrade asap</td>
   </tr> 
