@@ -403,7 +403,7 @@ ZAP localization is organized via http://crowdin.net/project/owasp-zap
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td> fuzzdb</td>
-   <td> http://code.google.com/p/fuzzdb/</td>
+   <td> https://github.com/fuzzdb-project/fuzzdb</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>

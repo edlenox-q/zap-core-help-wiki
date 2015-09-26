@@ -10,7 +10,7 @@ The HTML panels now support switchable syntax highlighting.
 
 ### Issue 153: fuzzdb integration ###
 
-The fuzzer includes fuzzdb (http://code.google.com/p/fuzzdb/) fuzzing files.
+The fuzzer includes fuzzdb (https://github.com/fuzzdb-project/fuzzdb) fuzzing files.
 Note that some fuzzdb files have been left out as they cause common anti virus scanners to flag them as containing viruses.
 You can replace them (and upgrade fuzzdb) by downloading the latest version of fuzzdb and expanding it in the 'fuzzers' library.
 
