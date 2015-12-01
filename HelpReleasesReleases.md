@@ -6,7 +6,7 @@ The following releases have been made:
  <tbody>
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td><a href="HelpReleases2_4_1" rel="nofollow">2.4.2</a></td>
+   <td><a href="HelpReleases2_4_2" rel="nofollow">2.4.2</a></td>
    <td>bug fix and minor enhancement release</td>
   </tr> 
   <tr>
