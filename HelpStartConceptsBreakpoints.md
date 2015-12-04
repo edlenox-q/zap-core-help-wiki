@@ -12,6 +12,9 @@ You can also set break points on specific criteria using the "Break..." right cl
 Only requests and responses which match those criteria will be intercepted by ZAP.
 Custom break points are shown in the [Break Points tab][]
 
+Break point option are configured using the [Options Break Points screen][].
+
+
 ## See also ##
 
 <table> 
@@ -35,3 +38,4 @@ Custom break points are shown in the [Break Points tab][]
 [Sites]: HelpUiTabsSites
 [History tabs]: HelpUiTabsHistory
 [Break Points tab]: HelpUiTabsBreakpoints
+[Options Break Points screen]: HelpUiDialogsOptionsBreakpoints

@@ -1,4 +1,4 @@
-# Session Contexts dialogs #
+# Session Context screens #
 
 These screens allows you manage [contexts][].
 
@@ -18,6 +18,10 @@ URLs which dont match any of the regexs will not be included in the context.
 This allows you to manage the URLs which will be excluded from the context.
 You only need to specify regexs for URLs that you do not want to include but which match one or more of the 'include' regexes.
 
+### Structure ###
+
+See the [Session Context Structure screen][].
+
 ### Technology ###
 
 This allows you to specify the technologies used in the context, if known.
@@ -26,23 +30,7 @@ If you exclude technologies that you know are not used then this may speed up [a
 
 ### Authentication ###
 
-This allows you to manage the way in which [Authentication][] is being done for the Context. Note that changing the authentication method after Users have been defined will cause them to be deleted, as the type of user credentials needs to match the authentication scheme. After selecting the Authentication Method type, the options that need to be configured depend on the Authentication Method.
-
-#### Manual Authentication ####
-
-No configuration is needed for this authentication method. Read [more][]...
-
-#### Form-Based Authentication ####
-
-To configure this authentication method, you need to supply the **login url**, to which the login request is performed, the **request body** (POST data), if needed, and identify the **parameters** used to supply the 'username' and 'password'. If no request body is supplied, the login request is performed as a HTTP GET, otherwise an HTTP POST is used. The credentials themselves are configured in the [Users][] tab. Read [more][more 1]...
-
-#### HTTP/NTLM Authentication ####
-
-To configure this authentication method, you need to supply the **hostname** and the **port** of the server the authentication is done with and the **realm** the credentials apply to. The credentials themselves are configured in the [Users][] tab. Read [more][more 2]...
-
-#### Script-Based Authentication ####
-
-To use this authentication method, you **first** need to write (and save) an **Authentication Script** using the **Scripts** tab (see the provided examples and templates for this script type in the Scripts tab). Then you need to supply the name of the script in the dropdown list. After selecting the script, you need to press the **Load** button, loading all the requirements of the script. Any parameters that you have specified as *required* or *optional* in the script will be shown in the interface to be defined. Their values are available to be used in the script, during the authentication, as seen in the provided examples for Authentication Scripts. Make sure that after doing any changes to the parameters required by the Authentication script you re-load the script. Otherwise, the parameters shown in the interface might not be the ones used during the authentication and errors might occur. The *credentials* used for each User during the authentication processed can be also specified in the Authentication Script and are configured in the [Users][] tab. Read [more][more 3]...
+See the [Session Context Authentication screen][].
 
 ### Session Management ###
 
@@ -50,7 +38,7 @@ This allows you to manage the way in which Session Management is being done for 
 
 #### Cookie-Based Session Management ####
 
-No configuration is needed for this session management method. Read [more][more 4]...
+No configuration is needed for this session management method. Read [more][]...
 
 ### Users ###
 
@@ -113,11 +101,7 @@ Example: subdomain.example.com/path?a=**\\E**&moredata=2 should appear as *\\Qsu
 
 
 [contexts]: HelpStartConceptsContexts
+[Session Context Structure screen]: HelpUiDialogsSessionContext-struct
 [active scanning]: HelpStartConceptsAscan
-[Authentication]: HelpStartConceptsAuthentication
-[more]: HelpStartConceptsAuthentication#manual
-[Users]: HelpUiDialogsSessionContexts#users
-[more 1]: HelpStartConceptsAuthentication#formBased
-[more 2]: HelpStartConceptsAuthentication#httpAuth
-[more 3]: HelpStartConceptsAuthentication#scriptBased
-[more 4]: HelpStartConceptsSessionManagement#cbsm
+[Session Context Authentication screen]: HelpUiDialogsSessionContext-auth
+[more]: HelpStartConceptsSessionManagement#cbsm

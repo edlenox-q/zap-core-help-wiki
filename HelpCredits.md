@@ -182,7 +182,19 @@ People who have made smaller but still very much appreciated enhancements to the
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>M&aacute;rio Areias</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>David Sopas (@dsopas)</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Andreas Sommer</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Dennis Kniep</td>
   </tr> 
  </tbody>
 </table>
@@ -257,7 +269,7 @@ ZAP localization is organized via http://crowdin.net/project/owasp-zap
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Brazilian Portuguese</td>
-   <td>Lord Dagonet, Paulo Brito</td>
+   <td>Nichols Jasper, Paulo Brito, M&aacute;rio Areias - @MarioAreias</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -291,6 +303,16 @@ ZAP localization is organized via http://crowdin.net/project/owasp-zap
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Hindi</td>
+   <td>A Abhilash</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Hungarian</td>
+   <td>Csaba Kabai</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Indonesian</td>
    <td>za</td>
   </tr> 
@@ -317,7 +339,7 @@ ZAP localization is organized via http://crowdin.net/project/owasp-zap
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Spanish</td>
-   <td>Team Iniqua - http://www.iniqua.com, Guifre Ruiz Utges, Leandro Ferrari - Talsoft SRL, Gaspar Modelo Howard, Felipe Zipitria, Fran J. Gomez @ffranz, Alejandro J. Saiz @ocixela, Mauro Gioino, Fernando Raviola, Gerardo Canedo</td>
+   <td>Team Iniqua - http://www.iniqua.com, Guifre Ruiz Utges, Leandro Ferrari - Talsoft SRL, Gaspar Modelo Howard, Felipe Zipitria, Fran J. Gomez @ffranz, Alejandro J. Saiz @ocixela, Mauro Gioino, Fernando Raviola, Gerardo Canedo, Jose Bustamante Romero -joseht8@gmai.com</td>
   </tr> 
  </tbody>
 </table>

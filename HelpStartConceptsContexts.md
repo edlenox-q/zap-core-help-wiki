@@ -24,6 +24,11 @@ You can configure contexts via:
    <td> <a href="HelpStartConceptsConcepts" rel="nofollow">Features</a></td>
    <td>provided by ZAP</td>
   </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpStartConceptsStructmods" rel="nofollow">Structural Modifiers</a></td>
+   <td>controls which change how ZAP represents the structure of the application</td>
+  </tr> 
  </tbody>
 </table>
 

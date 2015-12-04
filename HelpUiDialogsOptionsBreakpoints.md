@@ -1,10 +1,15 @@
 # Options Breakpoints screen #
 
-This screen allows you to configure the breakpoints options:
+This screen allows you to configure the [break point][] options:
 
 ### Confirm drop trapped message ###
 
 Asks for confirmation when a request or response is dropped.
+
+### Only break on messages in scope ###
+
+The 'global' break point will only be triggered by requests that are in [scope][].
+Custom break points will not be affected.
 
 ### ZAP always on top when breakpoint hit ###
 
@@ -13,7 +18,7 @@ If selected this will mean that ZAP stays on top of all other windows whenever a
 
 ### Break buttons mode ###
 
-This controls whether there is a single combined break button on the [Top Level Toolbar][] or seperate ones for Requests and Responses.
+This controls whether there is a single combined break button on the [Top Level Toolbar][] or separate ones for Requests and Responses.
 
 ## See also ##
 
@@ -33,4 +38,6 @@ This controls whether there is a single combined break button on the [Top Level 
 </table>
 
 
+[break point]: HelpStartConceptsBreakpoints
+[scope]: HelpStartConceptsScope
 [Top Level Toolbar]: HelpUiTltoolbar

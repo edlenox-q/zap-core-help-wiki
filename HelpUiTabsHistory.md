@@ -86,17 +86,16 @@ The [Session Contexts][] dialog will be displayed to allow you to make any addit
 
 This menu has the following submenus for each of the [contexts][context] you have defined:
 
-#### Login request ####
+#### *Context name* Form-based Auth Login request ####
 
-This identifies the specified node as a login request.
+This identifies the specified node as a login request for the specified context.
 You may only have one node identified as such in any one context.
-The [Session Contexts][] dialog will be displayed to allow you to make any additional changes.
+The [Session Context Authentication][] screen will be displayed to allow you to make any additional changes.
 
-#### Logout request ####
+#### *Context name* Data driven node ####
 
-This identifies the specified node as a logout request.
-You may only have one node identified as such in any one context.
-The [Session Contexts][] dialog will be displayed to allow you to make any additional changes.
+This identifies the specified node as [Data driven content][] for the specified context.
+The [Session Context Structure][] screen will be displayed to allow you to make any additional changes.
 
 ### Exclude from ###
 
@@ -189,6 +188,9 @@ It will only be enabled for POST requests, if the API is enabled and if Java sup
 [spider]: HelpStartConceptsSpider
 [context]: HelpStartConceptsContexts
 [Session Contexts]: HelpUiDialogsSessionContexts
+[Session Context Authentication]: HelpUiDialogsSessionContext-auth
+[Data driven content]: HelpStartConceptsDdc
+[Session Context Structure]: HelpUiDialogsSessionContext-struct
 [Session Properties]: HelpUiDialogsSessionSessprop
 [Manage Tags dialog]: HelpUiDialogsManagetags
 [tags]: HelpStartConceptsTags

@@ -46,6 +46,11 @@ ZAP provides the following features:
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpStartConceptsDdc" rel="nofollow">Data Driven Content</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td><a href="HelpStartConceptsFilters" rel="nofollow">Filters</a></td>
    <td></td>
   </tr> 
@@ -92,6 +97,16 @@ ZAP provides the following features:
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td><a href="HelpStartConceptsSpider" rel="nofollow">Spider</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpStartConceptsStructmods" rel="nofollow">Structural Modifiers</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpStartConceptsStructparams" rel="nofollow">Structural Parameters</a></td>
    <td></td>
   </tr> 
   <tr>
