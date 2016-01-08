@@ -27,7 +27,7 @@ Clicking on the 'Reset' button will reset the input vectors to the default optio
 
 The Custom Vectors tab allows you specify specific locations in the request to attack.
 Custom Vectors are only available if the 'recurse' option on the first tab is not selected.
-To add custom input vectors highlight the characters you want to attack in the request and lick the 'Add' button.
+To add custom input vectors highlight the characters you want to attack in the request and click the 'Add' button.
 You can add as many custom input vectors as you want.
 To remove custom input vectors highlight any of the selected characters and click the 'Remove' button.
 Checking the 'Disable non custom input vectors' box disables all of the input vectors except those you manually define on this tab.
