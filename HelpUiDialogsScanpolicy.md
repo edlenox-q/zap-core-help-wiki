@@ -1,4 +1,4 @@
-# Scan Policy dialog #
+# Scan Policy Dialog #
 
 This allows you to enable and disable the rules that are run when performing an [active scan][].
 The first screen allows you to define the default levels as well as the levels for all of the rules in a specific category.
@@ -11,9 +11,11 @@ Note that [passive scan][] rules are no longer managed via this dialog but are i
 ### Threshold ###
 
 This controls how likely ZAP is to report potential vulnerabilities.
-* If you select Off then the scanner won't run.
-* If you select Low then more potential issues will be raised which may increase the number of false positives.
-* If you select High then fewer potential issues will be raised which may mean that some real issues are missed (false negatives).
+
+
+ *  If you select Off then the scanner won't run.
+ *  If you select Low then more potential issues will be raised which may increase the number of false positives.
+ *  If you select High then fewer potential issues will be raised which may mean that some real issues are missed (false negatives).
 
 ### Strength ###
 

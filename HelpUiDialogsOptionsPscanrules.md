@@ -6,9 +6,11 @@ This screen allows you to configure the [passive scan][] rules.
 ### Threshold ###
 
 This controls how likely ZAP is to report potential vulnerabilities.
-* If you select Off then the scanner won't run.
-* If you select Low then more potential issues will be raised which may increase the number of false positives.
-* If you select High then fewer potential issues will be raised which may mean that some real issues are missed (false negatives).
+
+
+ *  If you select Off then the scanner won't run.
+ *  If you select Low then more potential issues will be raised which may increase the number of false positives.
+ *  If you select High then fewer potential issues will be raised which may mean that some real issues are missed (false negatives).
 
 ## See also ##
 

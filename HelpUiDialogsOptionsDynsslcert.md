@@ -48,7 +48,7 @@ In the options dialog of ZAP you're seeing the raw bytes (hexa-decimal encoded) 
 Each ZAP instance is using it's own root certificate. Of course, you can import root certificates, to use them on multiple machines. When running, there will be sub-certificated created, each time a HTTPS resource is requested. That means, the Root CA certificate is used as an issuer.
 
 Every dynamically generated certificate is valid for 1000 days.
-Every dynamically generated certificate is 1024 bit strong (RSA with SHA1).
+Every dynamically generated certificate is 2048 bit strong (RSA with SHA1).
 Every dynamically generated certificate has a random serial number. Every dynamically generated certificate consists of the following identifiers:
 
 `CN = www.example.com E = owasp-zed-attack-proxy@lists.owasp.org C = XX O = OWASP OU = Zed Attack Proxy Project`
