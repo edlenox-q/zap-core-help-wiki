@@ -28,7 +28,7 @@ Multiple authentication methods have been implemented and the system supports ea
 
 ### Manual Authentication ###
 
-This method allows users to perform the authentication manually (e.g. authenticate in the browser while proxy-ing through ZAP) and then select the corresponding HttpSession. As the actual authentication is being performed by you, this method does not support re-authentication in case the webapp logs a user out.
+This method allows users to perform the authentication manually (e.g. authenticate in the browser while proxy-ing through ZAP) and then select the corresponding HTTP session. As the actual authentication is being performed by you, this method does not support re-authentication in case the webapp logs a user out.
 
 When using this authentication method, configuring a User for the context require choosing an authenticated HTTP session.
 

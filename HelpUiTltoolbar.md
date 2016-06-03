@@ -52,7 +52,7 @@ This will reduce the amount of space available to the 'information' window.
 This changes the display so that the 'information' window extends for the full length of the bottom.
 This will reduce the amount of space available to the 'tree' window.
 
-## ![expand_full.png][]  Expand Full ##
+## ![expand_full.png][]  Full Layout ##
 
 This changes the display so that the selected tab takes up the full screen.
 This is useful when using ZAP on small screens.

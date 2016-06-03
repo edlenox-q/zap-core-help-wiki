@@ -3,7 +3,7 @@
 ## ZAP Core Team (current) ##
 
 People who have made significant enhancements to the latest releases.
-For more details see: https://www.ohloh.net/p/zaproxy/contributors
+For more details of code contributions see: https://www.openhub.net/p/zaproxy/contributors
 
 <table> 
  <tbody>
@@ -13,11 +13,26 @@ For more details see: https://www.ohloh.net/p/zaproxy/contributors
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>Cosmin Stefan-Dobrin</td>
+   <td>thc202 - Sponsored by the Linux Foundation</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>Andrea Pompili (Yhawke)</td>
+   <td>Rick Mitchell (Kingthorin)</td>
+  </tr> 
+ </tbody>
+</table>
+
+
+## ZAP Extended Team ##
+
+People who have made smaller but still very much appreciated enhancements to the latest releases.
+
+
+<table> 
+ <tbody>
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Gwilym Lewis – Appsecco</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -25,7 +40,15 @@ For more details see: https://www.ohloh.net/p/zaproxy/contributors
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Andrea Pompili (Yhawke)</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Bj&ouml;rn Kimminich</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Cosmin Stefan-Dobrin</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -33,7 +56,31 @@ For more details see: https://www.ohloh.net/p/zaproxy/contributors
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>Kingthorin</td>
+   <td>Mark Rader</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Johanna Curiel</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>April King</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Daniel Grunwell (grunny)</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Kevin Wall</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Dennis Kniep</td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td>Yannic Smeets</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -61,15 +108,7 @@ For more details see: https://www.ohloh.net/p/zaproxy/contributors
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>Kevin Wall</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Rauf Butt</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>Johanna Curiel</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -83,19 +122,6 @@ For more details see: https://www.ohloh.net/p/zaproxy/contributors
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Amro Alolaqi</td>
   </tr> 
- </tbody>
-</table>
-
-
-And also many thanks to those people who contribute but choose to remain anonymous - you know who you are :)
-
-## ZAP Extended Team ##
-
-People who have made smaller but still very much appreciated enhancements to the latest releases.
-
-
-<table> 
- <tbody>
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Dejan Lukan (eleanor)</td>
@@ -111,10 +137,6 @@ People who have made smaller but still very much appreciated enhancements to the
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Raul Siles - DinoSec</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>Mark Rader</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -146,10 +168,6 @@ People who have made smaller but still very much appreciated enhancements to the
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>April King</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Paul Pollack</td>
   </tr> 
   <tr>
@@ -166,15 +184,7 @@ People who have made smaller but still very much appreciated enhancements to the
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>Yannic Smeets</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Matt Austin (@mattaustin)</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>Daniel Grunwell (grunny)</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -191,10 +201,6 @@ People who have made smaller but still very much appreciated enhancements to the
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Andreas Sommer</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>Dennis Kniep</td>
   </tr> 
  </tbody>
 </table>
@@ -289,12 +295,12 @@ ZAP localization is organized via http://crowdin.net/project/owasp-zap
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>French</td>
-   <td>Patrick M.J. Roth: @PMJRoth, Thomas Piart, Azzeddine Ramrami, Cosmin Stefan, Franck Arnulfo</td>
+   <td>Patrick M.J. Roth: @PMJRoth, Thomas Piart, Azzeddine Ramrami, Cosmin Stefan, Franck Arnulfo, Sebastien Gioria</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>German</td>
-   <td>Axel Neumann - Compass Security AG, Cosmin Stefan, Robert Koch</td>
+   <td>Axel Neumann - Compass Security AG, Cosmin Stefan, Robert Koch, TheStone, Thomas Sch&ouml;fbeck</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -324,7 +330,7 @@ ZAP localization is organized via http://crowdin.net/project/owasp-zap
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Japanese</td>
-   <td>Ichiro, Sen UENO, Tetsuji KOYAMA</td>
+   <td>Ichiro, Sen UENO, Tetsuji KOYAMA, Motoshige AYAKI, Tsuyufumi WATANABE, @nightyknite, nilfigo, Yuho Kameda</td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -339,7 +345,7 @@ ZAP localization is organized via http://crowdin.net/project/owasp-zap
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td>Spanish</td>
-   <td>Team Iniqua - http://www.iniqua.com, Guifre Ruiz Utges, Leandro Ferrari - Talsoft SRL, Gaspar Modelo Howard, Felipe Zipitria, Fran J. Gomez @ffranz, Alejandro J. Saiz @ocixela, Mauro Gioino, Fernando Raviola, Gerardo Canedo, Jose Bustamante Romero -joseht8@gmai.com</td>
+   <td>Team Iniqua - http://www.iniqua.com, Guifre Ruiz Utges, Leandro Ferrari - Talsoft SRL, Gaspar Modelo Howard, Felipe Zipitria, Fran J. Gomez @ffranz, Alejandro J. Saiz @ocixela, Mauro Gioino, Fernando Raviola, Gerardo Canedo, Jose Bustamante Romero -joseht8@gmai.com, Carmelo Zubeldia</td>
   </tr> 
  </tbody>
 </table>

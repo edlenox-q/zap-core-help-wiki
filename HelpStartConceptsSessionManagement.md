@@ -2,11 +2,15 @@
 
 ZAP handles multiple types of session management (called **Session Management Methods**) that can be used for websites / webapps. Each **[Context][]** has a Session Management Method defined which dictates how sessions are kept.
 
-So far, just a cookie based session management method has been implemented, but the system supports easy addition of new methods, according to user needs.
+So far, just cookie based and HTTP authentication session management methods have been implemented, but the system supports easy addition of new methods, according to user needs.
 
 ### Cookie-Based Session Management ###
 
-In the case of this method the session is being tracked through cookies. Currently, the session tokens that are used are imported from the [Http Sessions][] Extension.
+In the case of this method the session is being tracked through cookies. Currently, the session tokens that are used are imported from the [HTTP Sessions][] Extension.
+
+### HTTP Authentication Session Management ###
+
+In the case of this method the session is managed with HTTP request header `Authorization`.
 
 ## Configured via ##
 
@@ -49,4 +53,4 @@ In the case of this method the session is being tracked through cookies. Current
 
 
 [Context]: HelpStartConceptsContexts
-[Http Sessions]: HelpStartConceptsHttpsessions
+[HTTP Sessions]: HelpStartConceptsHttpsessions

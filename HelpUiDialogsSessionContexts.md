@@ -40,6 +40,10 @@ This allows you to manage the way in which Session Management is being done for 
 
 No configuration is needed for this session management method. Read [more][]...
 
+#### HTTP Authentication Session Management ####
+
+No configuration is needed for this session management method. Read [more][more 1]...
+
 ### Users ###
 
 This allows you to configure a set of Users that may be used for various other actions throughout the application.
@@ -105,3 +109,4 @@ Example: subdomain.example.com/path?a=**\\E**&moredata=2 should appear as *\\Qsu
 [active scanning]: HelpStartConceptsAscan
 [Session Context Authentication screen]: HelpUiDialogsSessionContext-auth
 [more]: HelpStartConceptsSessionManagement#cbsm
+[more 1]: HelpStartConceptsSessionManagement#hasm

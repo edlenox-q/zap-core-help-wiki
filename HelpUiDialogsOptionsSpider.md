@@ -14,6 +14,10 @@ The depth is calculated starting from the seeds, so, if a Spider scan starts wit
 
 The spider is multi-threaded and this is the number that defines the maximum number of worker threads used in the crawling process. Changing this parameter does not have any effect on any crawling is in progress.
 
+### Maximum duration ###
+
+The maximum length of time that the spider should run for, measured in minutes. Zero (the default) means that the spider will run until it has found all of the links that it is able to.
+
 ### Domain Pattern ###
 
 The normal behavior of the spider is to only follow links to resources found on the same domain as the page where the scan started. However, this option allows you to define additional domains that are considered "in scope" during the crawling process. Pages on these domains are processed during the scan.

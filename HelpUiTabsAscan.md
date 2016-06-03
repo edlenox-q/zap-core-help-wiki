@@ -7,6 +7,7 @@ The 'New Scan' button launches the [Active Scan dialog][] which allows you to sp
 The toolbar provides a set of buttons which allow you to start, stop, pause and resume the scan selected.
 A progress bar shows how far the scan of the selected site has progressed.
 The 'Current scans' value shows how many scans are currently active - hovering over this value will show a list of the sites being scanned in a popup.
+The 'Show scan progress details' button ![system-monitor.png][] launches the [Scan Progress dialog][] which allows you to see details about which rules are running, skip individual rules and see a chart of the responses.
 
 ## Right click menu ##
 
@@ -68,6 +69,8 @@ This will open the URL of the selected node in your default browser.
 
 [active scan]: HelpStartConceptsAscan
 [Active Scan dialog]: HelpUiDialogsAdvascan
+[system-monitor.png]: https://github.com/zaproxy/zap-core-help/wiki/images/fugue/system-monitor.png
+[Scan Progress dialog]: HelpUiDialogsScanprogress
 [Session Properties]: HelpUiDialogsSessionSessprop
 [Resend dialog]: HelpUiDialogsResend
 [Add Alert dialog]: HelpUiDialogsAddalert

@@ -6,37 +6,31 @@ Scanning all of the elements supported will take longer, but not scanning some e
 
 ### Injectable Targets ###
 
-The request element that the active scanner will target:
+The request elements that the active scanner will target:
 
-<table> 
- <tbody>
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>URL Query String</td>
-   <td>Key value pairs in the request URL query, ie after the '?'</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>POST Data</td>
-   <td>Key value pairs in the request POST data</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>URL Path</td>
-   <td>Path elements in the request URL, ie the elements separated by '/'</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>HTTP Headers</td>
-   <td>Request HTTP Headers</td>
-  </tr> 
-  <tr>
-   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td>Cookie data</td>
-   <td>Request cookies</td>
-  </tr> 
- </tbody>
-</table>
+#### URL Query String ####
+
+Key value pairs in the request URL query, ie after the `?`.
+
+#### POST Data ####
+
+Key value pairs in the request POST data.
+
+#### URL Path ####
+
+Path elements in the request URL, ie the elements separated by `/`.
+
+#### HTTP Headers ####
+
+Request HTTP Headers.
+
+##### All Requests #####
+
+Allows to scan the HTTP Headers of all requests. Not just requests that send parameters, through the query or request body.
+
+#### Cookie Data ####
+
+Request cookies.
 
 ### Build-in Input Vector Handlers ###
 

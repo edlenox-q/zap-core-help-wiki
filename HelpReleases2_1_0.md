@@ -48,6 +48,8 @@ The following changes were made in this release:
 
 ### Issue 602: Allow to (explicitly) choose the file type when exporting URLs to file ###
 
+### Issue 605: Force intercepts via header ###
+
 ### Issue 621: Handle requests to the proxy URL (and generate a PAC file) ###
 
 ### Issue 638: Persist and snapshot sessions instead of saving them ###

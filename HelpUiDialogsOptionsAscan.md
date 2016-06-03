@@ -44,6 +44,10 @@ The [Scan Policy][] that is used by default when you start an active scan.
 
 The [Scan Policy][] that is used for scanning in Attack [mode][].
 
+### Max progress chart in mins ###
+
+The maximum time in minutes for which response codes will be charted in the [Scan Progress dialog][], with zero meaning no limit.
+
 ## See also ##
 
 <table> 
@@ -71,3 +75,4 @@ The [Scan Policy][] that is used for scanning in Attack [mode][].
 [anti CSRF]: HelpStartConceptsAnticsrf
 [mode]: HelpStartConceptsModes
 [Scan Policy]: HelpStartConceptsScanpolicy
+[Scan Progress dialog]: HelpUiDialogsScanprogress

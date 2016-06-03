@@ -56,7 +56,7 @@ ZAP provides the following features:
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-   <td><a href="HelpStartConceptsHttpsessions" rel="nofollow">Http Sessions</a></td>
+   <td><a href="HelpStartConceptsHttpsessions" rel="nofollow">HTTP Sessions</a></td>
    <td></td>
   </tr> 
   <tr>
@@ -97,6 +97,11 @@ ZAP provides the following features:
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td><a href="HelpStartConceptsSpider" rel="nofollow">Spider</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpStartConceptsStats" rel="nofollow">Statistics</a></td>
    <td></td>
   </tr> 
   <tr>

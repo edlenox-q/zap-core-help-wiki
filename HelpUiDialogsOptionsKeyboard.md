@@ -14,7 +14,7 @@ This button is only enabled if the API is enabled and your operating systems sup
 Clicking on this button will generate an HTML page which shows all of the keyboard shortcuts sorted by 'key'.
 This button is only enabled if the API is enabled and your operating systems supports opening URLs in a browser.
 
-### Rest ###
+### Reset ###
 
 Clicking on this button will reset all of the shortcuts to their defaults.
 

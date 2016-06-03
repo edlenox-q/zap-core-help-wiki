@@ -1,6 +1,6 @@
 # Modes #
 
-The ZAP UI has a 'mode' which can be:
+ZAP has a 'mode' which can be:
 
  *  Safe - no potentially dangerous operations permitted
  *  Protected - you can only perform (potentially) dangerous actions on URLs in the [Scope][]
@@ -9,8 +9,7 @@ The ZAP UI has a 'mode' which can be:
 
 It is recommended that you use the Protected mode to ensure that you only attack sites that you mean to.
 
-The mode can be changed via the [toolbar][] and is persisted between sessions.
-It does not apply to the API.
+The mode can be changed via the [toolbar][] (or the ZAP API) and is persisted between sessions.
 
 Examples of the things that will not be possible in either Safe mode or in Protected mode when not acting on URLs in the Scope:
 

@@ -36,8 +36,7 @@ Alerts are shown in the UI with a flag indicating the risk:
  </tbody>
 </table>
 
-Alerts can be raised either via [active scanning][] or manually using the [Add Alert dialog][].
-This dialog also allows you to change alerts.
+Alerts can be raised by various ZAP components, including but not limited to: [active scanning][], [passive scanning][], scripts, by addons (extensions), or manually using the [Add Alert dialog][] (which also allows you to update or change alert details/information).
 
 Alerts are flagged in the [History tab][] with a flag which indicates the highest risk alert.
 All alerts are listed in the [Alerts tab][] and a count of the total number of alerts by risk is shown in the [footer][].
@@ -61,6 +60,7 @@ All alerts are listed in the [Alerts tab][] and a count of the total number of a
 
 
 [active scanning]: HelpStartConceptsAscan
+[passive scanning]: HelpStartConceptsPscan
 [Add Alert dialog]: HelpUiDialogsAddalert
 [History tab]: HelpUiTabsHistory
 [Alerts tab]: HelpUiTabsAlerts

@@ -57,12 +57,12 @@ This will remove the Anti CSRF token flag from the parameter.
 
 ### Flag as Session token ###
 
-This will mark the parameter as a Session token for the current Site and will notify the [Http Sessions][] tool accordingly.
+This will mark the parameter as a Session token for the current Site and will notify the [HTTP Sessions][] tool accordingly.
 
 
 ### Unflag as Session token ###
 
-This will unmark the parameter as a Session token for the current site and will notify the [Http Sessions][] tool accordingly.
+This will unmark the parameter as a Session token for the current site and will notify the [HTTP Sessions][] tool accordingly.
 
 
 ## See also ##
@@ -81,4 +81,4 @@ This will unmark the parameter as a Session token for the current site and will 
 [Sites tab]: HelpUiTabsSites
 [Search tab]: HelpUiTabsSearch
 [Anti CSRF token]: HelpStartConceptsAnticsrf
-[Http Sessions]: HelpStartConceptsHttpsessions
+[HTTP Sessions]: HelpStartConceptsHttpsessions

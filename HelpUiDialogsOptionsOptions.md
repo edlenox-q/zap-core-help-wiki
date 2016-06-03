@@ -67,12 +67,32 @@ It include the following screens:
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpUiDialogsOptionsExt" rel="nofollow">Extensions</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpUiDialogsOptionsGlobalexcludeurl" rel="nofollow">Global Exclude URL</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpUiDialogsOptionsHttpsessions" rel="nofollow">HTTP Sessions</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td><a href="HelpUiDialogsOptionsJvm" rel="nofollow">JVM</a></td>
    <td></td>
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td><a href="HelpUiDialogsOptionsKeyboard" rel="nofollow">Keyboard</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpUiDialogsOptionsLanguage" rel="nofollow">Language</a></td>
    <td></td>
   </tr> 
   <tr>
@@ -103,6 +123,11 @@ It include the following screens:
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td><a href="HelpUiDialogsOptionsSpider" rel="nofollow">Spider</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpUiDialogsOptionsStats" rel="nofollow">Statistics</a></td>
    <td></td>
   </tr> 
  </tbody>

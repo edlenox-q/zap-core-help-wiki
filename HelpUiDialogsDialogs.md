@@ -86,6 +86,11 @@ The UI includes the following dialogs or popups:
   </tr> 
   <tr>
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+   <td><a href="HelpUiDialogsScanprogress" rel="nofollow">Scan Progress</a></td>
+   <td></td>
+  </tr> 
+  <tr>
+   <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
    <td><a href="HelpUiDialogsSessionSessprop" rel="nofollow">Session Properties</a></td>
    <td></td>
   </tr> 

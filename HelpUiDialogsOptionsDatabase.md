@@ -6,6 +6,12 @@ This screen allows you to configure the database options:
 
 Allows to compact the database when ZAP is closed, compacting the database ensures a minimal space disk usage but it will also take longer to exit ZAP.
 
+### Recovery Log ###
+
+Controls whether or not database's recovery log is enabled.
+Improves the performance of the database when disabled but might lead to data loss if ZAP is exited abruptly.
+Note: current session will be unaffected, changes take effect on new and opened sessions.
+
 ### Maximum Request Body Size ###
 
 The largest request body size in bytes that ZAP will allow.

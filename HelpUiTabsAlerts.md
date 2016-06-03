@@ -1,11 +1,8 @@
 # Alerts tab #
 
-The Alerts tab show the [Alerts][] that have been raised in this session.
-The alerts are displayed in a tree in risk order in the left hand pane, and each node of the tree shows the total number of alerts underneath it.
-Selecting an alert with one click will display it in the right hand pane.
-Double clicking an alert will display the [Add Alert][] dialog which will allow you to change the alert details.
+The Alerts tab show the [Alerts][] that have been raised in this session. The alerts are displayed in a tree in risk order in the left hand pane, and each node of the tree shows the total number of alerts underneath it.
 
-Alerts can either be raised by [Automated scanning][] or manually via the [History tab][].
+Selecting an alert with one click will display it in the right hand pane. Double clicking an alert will display the [Add Alert][] dialog which will allow you to change the alert details.
 
 ## Filtering alerts ##
 
@@ -44,8 +41,6 @@ This will bring up the [Resend dialog][] which allows you to resend the request 
 
 [Alerts]: HelpStartConceptsAlerts
 [Add Alert]: HelpUiDialogsAddalert
-[Automated scanning]: HelpStartConceptsAscan
-[History tab]: HelpUiTabsHistory
 [target.png]: https://github.com/zaproxy/zap-core-help/wiki/images/fugue/target.png
 [target-grey.png]: https://github.com/zaproxy/zap-core-help/wiki/images/fugue/target-grey.png
 [scope]: HelpStartConceptsScope

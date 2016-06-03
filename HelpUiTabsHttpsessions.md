@@ -1,4 +1,4 @@
-# Http Sessions tab #
+# HTTP Sessions tab #
 
 This tab shows you the set of identified HTTP sessions for each Site, as detected by the [HTTP Sessions extension][].
 
@@ -34,12 +34,12 @@ For each session you can see:
   </tr> 
   <tr> 
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-   <td><a href="HelpStartConceptsHttpsessions" rel="nofollow">Http Sessions Extension</a></td> 
+   <td><a href="HelpStartConceptsHttpsessions" rel="nofollow">HTTP Sessions Extension</a></td> 
    <td>for an overview of the extension</td> 
   </tr> 
   <tr> 
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-   <td><a href="HelpUiDialogsOptionsHttpsessions" rel="nofollow">Http Sessions Options screen</a></td> 
+   <td><a href="HelpUiDialogsOptionsHttpsessions" rel="nofollow">HTTP Sessions Options screen</a></td> 
    <td>for an overview of the extension's Options</td> 
   </tr> 
  </tbody>

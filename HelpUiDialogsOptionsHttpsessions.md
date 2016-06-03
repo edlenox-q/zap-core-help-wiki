@@ -1,6 +1,6 @@
-# Options Http Sessions screen #
+# Options HTTP Sessions screen #
 
-This screen allows you to configure the [Http Sessions Extension's][Http Sessions Extension_s] options:
+This screen allows you to configure the [HTTP Sessions Extension's][HTTP Sessions Extension_s] options:
 
 ### Default Tokens ###
 
@@ -28,16 +28,16 @@ If this option is enabled, the Extension will only process the messages sent and
   </tr> 
   <tr> 
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-   <td><a href="HelpStartConceptsHttpsessions" rel="nofollow">Http Sessions Tool</a></td> 
+   <td><a href="HelpStartConceptsHttpsessions" rel="nofollow">HTTP Sessions Tool</a></td> 
    <td>for an overview of the Tool</td> 
   </tr> 
   <tr> 
    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-   <td><a href="HelpUiTabsHttpsessions" rel="nofollow">Http Sessions tab</a></td> 
+   <td><a href="HelpUiTabsHttpsessions" rel="nofollow">HTTP Sessions tab</a></td> 
    <td>for an overview of the Tab</td> 
   </tr> 
  </tbody>
 </table>
 
 
-[Http Sessions Extension_s]: HelpStartConceptsHttpsessions
+[HTTP Sessions Extension_s]: HelpStartConceptsHttpsessions
