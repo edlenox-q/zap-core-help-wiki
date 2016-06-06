@@ -2,6 +2,10 @@
 
 The following release quality active scan rules are included in this add-on:
 
+## Buffer Overflow ##
+
+Looks for indicators of buffer overflows in compiled code. It does this by putting out large strings of input text and look for code crash and abnormal session closure.
+
 ## Code Injection ##
 
 This rule submits PHP and ASP attack strings as values for URL parameters in a request and examines the response to see if those values have been evaluated by the server. First, requests are constructed and sent containing injected PHP instructions to print a token. In the event of a match between the token and the content of the response body, the scanner raises an alert and returns immediately. If there aren't any matches, the scanner will construct requests with several injected ASP strings that instruct the server to write the product of two randomly generated integers in the response. If the body of the response matches the product, an alert is raised.
@@ -24,6 +28,10 @@ It then performs a series of attacks specifically targeted at the location in wh
 This rule starts by submitting a unique 'safe' value and then spiders the whole application to find all of the locations in which the value occurs.
 It then performs a series of attacks in the same way that the 'reflected' version does but in this case checks all of the target locations in other pages.
 
+## CRLF Injection ##
+
+This rule submits various CRLF special characters preceding an injected "Set-Cookie" header as a parameter to the server. If the response contains an identical Set-Cookie header, an alert is raised and the scanner returns immediately.
+
 ## Directory Browsing ##
 
 This rule checks to see if a request will provide access to a directory listing by examining the response body for patterns used with Apache, IIS and other web server software.
@@ -32,9 +40,9 @@ This rule checks to see if a request will provide access to a directory listing 
 
 This rule submits a variety of URL redirect strings as parameter values in a request, then examines the headers and bodies of responses to determine whether or not a redirect occurred and of what type. The cause of redirect is searched for in the "Location" and "Refresh" header fields, as well as by HTML meta tags and Javascript in the body of the response. An alert is raised including the redirection type and the scanner returns immediately.
 
-## CRLF Injection ##
+## Format String Error ##
 
-This rule submits various CRLF special characters preceding an injected "Set-Cookie" header as a parameter to the server. If the response contains an identical Set-Cookie header, an alert is raised and the scanner returns immediately.
+Looks for indicators of format string handling errors in compiled code. It does this by putting out strings of input text based upon characters compiled C code anticipates to produce formatted output and look for code crash and abnormal session closures.
 
 ## Parameter Tampering ##
 

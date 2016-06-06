@@ -22,21 +22,6 @@ This screen allows you to configure the [AJAX Spider][] options. The AJAX Spider
    <td>AJAX Spider relies on an external browser to crawl the targeted site. You can specify which one you want to use. For more details on supported browsers refer to &quot;Selenium&quot; add-on help pages.</td> 
    <td align="center">Firefox</td> 
   </tr> 
-  <tr>
-   <td>Select ChromeDriver</td> 
-   <td>This allows you to select the location of ChromeDriver. For more information refer to the above Chrome Browser entry.</td> 
-   <td align="center">(None)</td> 
-  </tr> 
-  <tr> 
-   <td>Select PhantomJS binary</td> 
-   <td>This allows you to select the location of PhantomJS binary. For more information refer to the above PhantomJS Browser entry.</td> 
-   <td align="center">(None)</td> 
-  </tr> 
-  <tr> 
-   <td>Select IEDriverServer</td> 
-   <td>This allows you to select the location of IEDriverServer. For more information refer to the above Internet Explorer Browser entry.</td> 
-   <td align="center">(None)</td> 
-  </tr> 
   <tr> 
    <td>Number of browser windows to open</td> 
    <td>You can configure the number of windows to be used by AJAX Spider. The more windows, the faster the process will be.</td> 
