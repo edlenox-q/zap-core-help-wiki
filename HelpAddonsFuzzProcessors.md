@@ -14,6 +14,7 @@ Built in payload processors include:
  *  Prefix String
  *  SHA-1 Hash
  *  SHA-256 Hash
+ *  SHA-512 Hash
  *  Trim
  *  URL Decode
  *  URL Encode

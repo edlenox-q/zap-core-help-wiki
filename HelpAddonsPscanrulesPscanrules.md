@@ -52,6 +52,11 @@ This scanner checks for the existence of session token type parameters being rew
 
 This scanner check for the Anti-MIME-Sniffing header X-Content-Type-Options and ensures it is set to 'nosniff'. At HIGH threshold this scanner does not alert on client or server error responses, for all other enabled thresholds it alerts on all response types if the header is missing or set to something other than 'nosniff'.
 
-## X-Frame-Option ##
+## X-Frame-Options Header Scanner ##
 
-This scanner checks for the existence and validity of the X-FRAME-OPTIONS header. At HIGH threshold this scanner does not alert on client or server error responses, for all other enabled thresholds it alerts on all response types if the header is missing or invalid. Invalid meaning that the header is present with no value, or that the value is not as expected (i.e.: other than "DENY", "SAMEORIGIN", or "ALLOW-FROM").
+This scanner checks for the existence and validity of the X-Frame-Options header. At HIGH threshold this scanner does not alert on client or server error responses, for all other enabled thresholds it alerts on all response types. The following conditions may result in an alert:
+
+ *  **X-Frame-Options Header Not Set:**  If the X-Frame-Options header is missing from the response completely.
+ *  **Multiple X-Frame-Options Header Entries:**  When more than one X-Frame-Options header is detected on the response.
+ *  **X-Frame-Options Defined via META (Non-compliant with Spec):**  A "http-equiv" entry was found in the response that attempts to define X-Frame-Options, which is not supported by the specification.
+ *  **X-Frame-Options Setting Malformed:**  The header is present with no value, or the value is not as expected (i.e.: other than "DENY", "SAMEORIGIN", or "ALLOW-FROM").
