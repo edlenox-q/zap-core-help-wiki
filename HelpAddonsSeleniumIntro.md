@@ -5,7 +5,7 @@ The Selenium add-on provides WebDrivers, for other add-ons, to invoke and remote
 The following web browsers are supported:
 
  *  Chrome
- *  Firefox
+ *  Firefox - the following versions are known to work: 45 (ESR), 46 and 47.0.1 (older version might work too). Some versions do not work correctly: 47.0 and 48+.
  *  HtmlUnit
  *  Internet Explorer
  *  Opera

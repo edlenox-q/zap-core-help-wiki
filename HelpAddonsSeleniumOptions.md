@@ -21,6 +21,11 @@ This screen allows you to setup the requirements of some of the WebDrivers.
    <td align="center">(None)</td> 
   </tr> 
   <tr> 
+   <td>Firefox binary</td> 
+   <td>This allows you to select the location of Firefox binary (for example, to use other version than the system default).</td> 
+   <td align="center">(None)</td> 
+  </tr> 
+  <tr> 
    <td>IEDriverServer</td> 
    <td>This allows you to select the location of IEDriverServer.</td> 
    <td align="center">(None)</td> 
