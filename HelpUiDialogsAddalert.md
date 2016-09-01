@@ -1,4 +1,4 @@
-# Add Alert dialog #
+# Add Alert Dialog #
 
 This dialog allows you to manually add or change an [Alert][] associated with a specific request.
 
@@ -104,7 +104,7 @@ One or more URLs pointing to more information on the internet about the selected
 This is populated when you select one of the predefined types, but you can also change it as required.
 Note that any changes you make will be lost if you select another type.
 
-## Accessed via ##
+## Accessed Via ##
 
 <table> 
  <tbody>
@@ -121,7 +121,7 @@ Note that any changes you make will be lost if you select another type.
  </tbody>
 </table>
 
-## See also ##
+## See Also ##
 
 <table> 
  <tbody>
