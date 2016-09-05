@@ -34,7 +34,7 @@ They are managed via the [Location Processors dialog][]
 
 ### Message Processors ###
 
-Message Processors can access and change the fuzzing requests and responses, control the fuzzing process and interact with the ZAP UI.
+Message Processors can access and change the messages being fuzzed, control the fuzzing process and interact with the ZAP UI.
 
 They are managed via the [Fuzzer dialog][] 'Message Processors' tab.
 

@@ -7,13 +7,6 @@ Selecting a row see the full requests and responses. You can also search for str
 ## HTTP Fuzzer results ##
 
 The results have to be manually assessed to know if any vulnerability was found.
-Meaning of values of the "State" column:
-
- *  "Error" - an error occurred while creating or sending/receiving the message (for example: malformed HTTP message, time out while reading the response)
- *  "Reflected" - the injected fuzz string (value of "Fuzz" column) was found in the response body.
-
-If this field is blank then it means that the message was successfully sent/received and the injected string was not detected in the response.
-
 
 ## Right click menu ##
 

@@ -22,25 +22,8 @@ This tab allows you to configure the options to be used when fuzzing.
 
 ### Message Processors tab ###
 
-Message Processors can access and change the fuzzing requests and responses, control the fuzzing process and interact with the ZAP UI.
-
-The following types of message processors are provided by default:
-
- *  Payload Reflection Detector
- *  Request Content-Length Updater
- *  User message processor
-
-You can write custom HTTP Message Processor scripts, which allow you to
-
- *  Obtain the list of payloads
- *  Stop fuzzing
- *  Increase the error count
- *  Send new messages
- *  Add messages to the Results tab\[link\]
- *  Set custom ‘state’ messages in the [Fuzzer tab][]
- *  Raise alerts
-
-
+Message Processors can access and change the messages being fuzzed, control the fuzzing process and interact with the ZAP UI.
+The message processors available depend on the type of message being fuzzed, this add-on includes the [default HTTP Messages processors][].
 
 Add-ons can also define additional payload generators.
 
@@ -82,3 +65,4 @@ Add-ons can also define additional payload generators.
 [Payloads dialog]: HelpAddonsFuzzPayloads
 [Location Processors dialog]: HelpAddonsFuzzLocations
 [Fuzzer tab]: HelpAddonsFuzzTab
+[default HTTP Messages processors]: HelpAddonsFuzzHttpmessageprocessors

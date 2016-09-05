@@ -113,6 +113,7 @@
     * ![](https://github.com/zaproxy/zap-core-help/wiki/images/fuzzer.png) [Fuzzer](HelpAddonsFuzzConcepts)
       * [Options](HelpAddonsFuzzOptions)
       * [Dialogue](HelpAddonsFuzzDialogue)
+      * [HTTP Message Processors](HelpAddonsFuzzHttpmessageprocessors)
       * [Location Processors Dialog](HelpAddonsFuzzLocations)
       * [Payloads Dialog](HelpAddonsFuzzPayloads)
       * [Payload Processors Dialog](HelpAddonsFuzzProcessors)
