@@ -8,11 +8,25 @@ The first tab allows you to change key features like:
 
 ### Starting point ###
 
-The URL which the AJAX spider will start crawling from.
+The URL which the AJAX spider will start crawling from, or a context (in which case it will be used one of the URLs that are in context as starting point).
+
+### Context ###
+
+Allows to select the Context to be spidered.
+
+### User ###
+
+Allows to select one of the users available from the selected context, to perform the spider scan as a user (ZAP will (re)authenticate as that user whenever necessary).
 
 ### Just in scope ###
 
 If set then any URLs which are out of scope will be ignored.
+
+**Note:** The option `Just in scope` is mutually exclusive with `Context` option, if one is used the other is ignored.
+
+### Spider Subtree Only ###
+
+If set then the spider will only access resources that are under the starting point (URI). When evaluating if a resource is found within the specified subtree, the spider considers only the scheme, host, port, and path components of the URI.
 
 ### Browser ###
 
