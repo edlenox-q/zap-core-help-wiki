@@ -58,8 +58,8 @@ So if a command accepted a URL using '-u' you would specify the parameters as: '
 ### Capture Output ###
 
 If checked then the command run and any output it generates will be displayed on the *Output tab*.
-You should always use this options when running scripts or commands that do not have a UI.
-You can also use this options for troubleshooting - if an application does not run as expected then copy the command run and try it from a command line prompt.
+You should always use this option when running scripts or commands that do not have a UI.
+You can also use this option for troubleshooting - if an application does not run as expected then copy the command run and try it from a command line prompt.
 
 ### Output to Note ###
 

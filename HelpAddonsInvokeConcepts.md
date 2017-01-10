@@ -1,7 +1,7 @@
 # Invoke Applications #
 
 Other applications can be invoked passing in context information, such as the URL of the message selected.
-So, for example, Nmap could be invoked passing the the site which you want it to scan.
+So, for example, Nmap could be invoked passing the site which you want it to scan.
 
 Applications are configured using the [Options Applications screen][].
 
