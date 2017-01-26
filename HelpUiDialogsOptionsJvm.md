@@ -15,8 +15,8 @@ Good values for this field could be:
 
 Unlike the other ZAP options these are held in the file ".ZAP\_JVM.properties" in the user's default ZAP directory, which depends on the OS being used:
 
- *  Windows 7/8: C:\\Users\\*<username>*\\OWASP ZAP
- *  Windows XP: C:\\Documents and Settings\\*<username>*\\OWASP ZAP
+ *  Windows 7/8: C:\\Users\\*&lt;username>*\\OWASP ZAP
+ *  Windows XP: C:\\Documents and Settings\\*&lt;username>*\\OWASP ZAP
  *  Linux: ~/.ZAP
  *  Mac OS: ~/Library/Application Support/ZAP
 
