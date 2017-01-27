@@ -25,6 +25,12 @@ The 'selenium' API allows to set and view the paths to the required WebDrivers a
    <td>Returns the current path to Firefox binary</td> 
   </tr> 
   <tr> 
+   <td>optionFirefoxDriverPath</td> 
+   <td>view</td> 
+   <td></td> 
+   <td>Returns the current path to Firefox driver (geckodriver)</td> 
+  </tr> 
+  <tr> 
    <td>optionIeDriverPath</td> 
    <td>view</td> 
    <td></td> 
@@ -47,6 +53,12 @@ The 'selenium' API allows to set and view the paths to the required WebDrivers a
    <td>action</td> 
    <td>String*</td> 
    <td>Sets the current path to Firefox binary</td> 
+  </tr> 
+  <tr> 
+   <td>setOptionFirefoxDriverPath</td> 
+   <td>action</td> 
+   <td>String*</td> 
+   <td>Sets the current path to Firefox driver (geckodriver)</td> 
   </tr> 
   <tr> 
    <td>setOptionIeDriverPath</td> 
