@@ -18,7 +18,7 @@ Raises an alert if the response is lacking a Content-Type header or if the heade
 
 ## Cookie HttpOnly ##
 
-Ensures that as cookies are set they are flagged HttpOnly. The HttpOnly flag indicates to browsers that the cookie being set should be acted upon by client side script (such as JavaScript).
+Ensures that as cookies are set they are flagged HttpOnly. The HttpOnly flag indicates to browsers that the cookie being set should not be acted upon by client side script (such as JavaScript).
 
 ## Cookie Secure Flag ##
 
